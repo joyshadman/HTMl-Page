@@ -1,0 +1,97 @@
+body {
+    background-color: #1A1D23; /* Deep blue background */
+    font-family: Montserrat, sans-serif;
+}
+h1 {
+    color: #fa7fc9a5;
+    text-shadow: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1A1D23;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2F343A;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.input-field:focus {
+    outline: none;
+    box-shadow: 0 0 10px #03A9F4; /* Electric blue glow */
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF69B4; /* Pink background */
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: #FF99CC; /* Pink hover effect */
+    box-shadow: 0 0 10px #FF69B4; /* Pink glow */
+}
+
+.submit-button:active {
+    background-color: #FF33CC; /* Pink active effect */
+    box-shadow: 0 0 10px #FF69B4; /* Pink glow */
+}
+
+.neon-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+}
+
+.neon-icons svg {
+    width: 100%;
+    height: 100%;
+}
+
+.neon-icons path {
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        stroke-width: 2;
+    }
+    50% {
+        stroke-width: 4;
+    }
+    100% {
+        stroke-width: 2;
+    }
+}
